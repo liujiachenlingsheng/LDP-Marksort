@@ -15,13 +15,13 @@ public class experimentforpaper {
             BufferedReader bis = new BufferedReader(fis);
 //            char[]buffer = new char[1024];
 //            int len;
-            String line = null;
-            List<String> strdata = new ArrayList<String>();
-            while((line = bis.readLine()) != null){
-                strdata.add(line);
-//                System.out.println(line);
-            }
-            for(String a:strdata){
+                String line = null;
+                List<String> strdata = new ArrayList<String>();
+                while((line = bis.readLine()) != null){
+                    strdata.add(line);
+    //                System.out.println(line);
+                }
+                for(String a:strdata){
                 int x = 0, tail = 0, flag  = 1;      //这里需要手动调整flag的值，寿司需要设置为0，其他的设置为1
                 ArrayList<Integer> linedata = new ArrayList<>();
                 for(int i=0; i<a.length(); i++){
